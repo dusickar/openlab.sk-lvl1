@@ -17,7 +17,32 @@ header p {
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 1px;
-
 }
+
+.btn-gray a:hover {
+    color:#141619
+}
+
+.nav-link {
+    color: #141619
+}
+
+.enjoy {
+    background-color: #3597ff;
+    border-color: #3597ff;
+    margin-left: 450px;
+}
+
+.main-visual-image {
+    position: absolute;
+    left: 50%;
+    bottom: 33.7%;
+    height: auto !important;
+    width: auto !important;
+    max-width: 50%;
+    max-height: 40%;
+    z-index: 99;
+}
+
 
 
