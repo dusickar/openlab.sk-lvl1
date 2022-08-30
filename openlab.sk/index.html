@@ -11,19 +11,21 @@
     </head>
 
     <body>
-        <div class="container">
+        <div class="container-fluid">
             <header class="bg-white">
-                <div class="application container d-flex justify-content-center align-items-center border-bottom border-info">
-                    <p class="me-5 mt-3"> Ak máš záujem študovať spolu s nami, sme tu pre teba…</p>
-                    <a href="https://discord.com/invite/Y6xrdTvjFn" target="_blank" class="discord-header-button btn btn-gray btn-sm rounded-pill ">
+                <div class="container d-flex justify-content-center align-items-center border-bottom border-info">
+                    <p class="me-5 mt-3 text-black"> Ak máš záujem študovať spolu s nami, sme tu pre teba…</p>
+                    <a href="https://discord.com/invite/Y6xrdTvjFn" target="_blank" class="btn btn-gray btn-sm rounded-pill ">
                         OPENLAB COMMUNITY 
                         <img src="icon/discord.svg" alt="Discord" class="pb-1">
                     </a>
                 </div>
                 
                 <nav>
-                    <ul class="nav nav-pills navbar-expand-lg mt-4 pb-5 text-center ">
-                        <img src="img/openlab-logo.svg" alt="openlab" class="me-5">
+                    <ul class=" container nav nav-pills navbar-expand-lg mt-4 text-center">
+                        <a href="https://openlab.sk/">
+                            <img src="img/openlab-logo.svg" alt="openlab" class="me-5 mt-1">
+                        </a>
                         <li class="nav-item">
                             <a class="nav-link" href="https://rieciciar.wezeo.academy/index.html">Úvod</a> 
                         </li>
@@ -50,39 +52,51 @@
                         <li class="nav-item">
                             <a class="nav-link" href="https://rieciciar.wezeo.academy/modernaskola.html">Moderná škola</a> 
                         </li>
-                        <a href="https://rieciciar.wezeo.academy/openlaby/" class="enjoy btn btn-primary">Pridajte sa k nám</a>
+                        <a href="https://rieciciar.wezeo.academy/openlaby/" class="enjoy btn btn-primary offset-md-4">Pridajte sa k nám</a>
                     </ul>
                 </nav>
             </header>    
                 
-            <section class="main-message container-fluid p-3 my-3 bg-primary text-white">
-                <div class="z-index-1 col-lg-5 my-md-5 py-5">
-                    <h1 class="fw-light mb-4">Inštitút stredoškolského odborného vzdelávania <strong>zameraný na IT & AI</strong></h1>
-                    <p>Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania</p>
-                </div>
-                <div>
-                    <img src="img/main-home.png" alt="Študenti" class="d-none d-lg-block main-visual-image">
-                </div>
+            <section class="main-message px-4 py-2 my-3 bg-primary text-white position-relative mb-5 mb-md-5">
+                <div class="container">
+                    <div class="align-items-center row">
+                        <div class="z-index-1 col-lg-5 my-md-5 py-5">
+                            <h1 class="fw-lighter mb-4">Inštitút stredoškolského odborného vzdelávania <strong>zameraný na IT & AI</strong></h1>
+                            <p class="text-white">Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="img/main-home.png" alt="Študenti" width="543px" height="418px" class="d-none d-lg-block main-visual-image offset-md-6">
+                    </div>
+                    <div class="d-md-block position-absolute">
+                        <img src="img/o_letter.png" width="482px" height="482px" class="shape">
+                    </div>
+                </div>    
             </section>
 
             <section class="why">
-                <img src="img/o_letter.png">
-                <h2>Prečo <strong>OpenLab?</strong></h2>
-                <p>V OpenLabe študentov učíme najnovšie technológie. Zároveň im dávame veľkú slobodu, pričom ich vedieme k zodpovednosti a samostatnosti, učíme ich princípy partnerského prístupu, pracovať v tíme, trénujeme ich schopnosti sebareflexie a podnecujeme ich kreativitu. Takto študentov pripravujeme osobnostne aj tech zručnosťami na veľké veci, ktoré môžu v budúcnosti tvoriť.</p>
-                <div class="why-card">
-                    <div class="card-item">
+                <div class="container py-5">
+                    <div class="row justify-content-center">
+                        <div class="col-12 text-center z-index-1">
+                            <h2 class="h1 fw-light mb-5">Prečo <strong>OpenLab?</strong></h2>
+                            <p class="mx-md-5 pb-2">V OpenLabe študentov učíme najnovšie technológie. Zároveň im dávame veľkú slobodu, pričom ich vedieme k zodpovednosti a samostatnosti, učíme ich princípy partnerského prístupu, pracovať v tíme, trénujeme ich schopnosti sebareflexie a podnecujeme ich kreativitu. Takto študentov pripravujeme osobnostne aj tech zručnosťami na veľké veci, ktoré môžu v budúcnosti tvoriť.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="why-card container d-flex justify-content-center pb-5">
+                    <div class="card-item col-md-3 mx-2">
                         <img src="icon/select.svg" alt="Celospoločenský rozvoj">
                         <h5>Celospoločenský rozvoj</h5>
                         <p>Osnovy aj učebné materiály pre všetky tech oblasti sú open source.</p>
                     </div>
 
-                    <div class="card-item">
+                    <div class="card-item col-md-3 mx-2">
                         <img src="icon/support.svg" alt="Učenie praxou">
                         <h5>Učenie praxou</h5>
                         <p>Študentov vedieme k tímovému riešeniu problémov.</p>  
                     </div>
 
-                    <div class="card-item">
+                    <div class="card-item col-md-3 mx-2">
                         <img src="icon/intership.svg" alt="Rozvoj talentu">
                         <h5>Rozvoj talentu</h5>
                         <p>Vytvárame šikovné tímy schopné riešiť veľké problémy.</p>  
@@ -90,10 +104,14 @@
                 </div>
             </section>
 
-            <section class="vision">
-                <h2>Naša vízia <strong>v OpenLabe</strong></h2>
-                <p>Veríme, že otvorený prístup a kvalitné vzdelanie sú základom úspechu jednotlivca ako aj prosperujúcej spoločnosti.</p>
-                <p>Uvedomujeme si, že ak chceme niečo zmeniť, musíme ísť príkladom. Našim cieľom je rozšíriť princípy OpenLab-u na všetkých úrovniach škôl a nastaviť svetový štandard vzdelávania v školstve v technológiách.</p>
+            <section class="vision py-4 py-md-5">
+                <div class="container row align-items-center py-4">
+                    <div class="col-xl-6 mb-3 ms-5 mb-md-5 mb-lg-0">
+                        <h2 class="h1 fw-light mb-3 mb-md-5">Naša vízia <strong>v OpenLabe</strong></h2>
+                        <p>Veríme, že otvorený prístup a kvalitné vzdelanie sú základom úspechu jednotlivca ako aj prosperujúcej spoločnosti.</p>
+                        <p>Uvedomujeme si, že ak chceme niečo zmeniť, musíme ísť príkladom. Našim cieľom je rozšíriť princípy OpenLab-u na všetkých úrovniach škôl a nastaviť svetový štandard vzdelávania v školstve v technológiách.</p>
+                    </div>
+                </div>
                 <div class="vision-counts">
                     <div class="vision-counts-class">
                         <p>11</p>
