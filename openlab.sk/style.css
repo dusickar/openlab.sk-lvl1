@@ -1,0 +1,121 @@
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+p {
+    font-size: 16px;
+}
+
+header p {
+    font-family: 'SF Pro Display', sans-serif;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+strong {
+    font-weight: bold;    
+}
+
+.position-relative {
+    position: relative;
+}
+
+.btn-gray {
+    color: #989ca2;
+    background-color: rgba(152, 156, 162, 0.15);
+    border-color: rgba(152, 156, 162, 0.15);
+
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn-gray:hover {
+    color:#141619;
+    background-color: rgba(152, 156, 162, 0.15);
+    border-color: rgba(152, 156, 162, 0.15);
+}
+
+.nav-link {
+    color: #141619
+}
+
+.main-message p {
+    font-size: 17px;
+}
+
+.bg-primary, .btn-primary {
+    background-color: #3597ff;
+    border-color: #3597ff;
+}
+
+.enjoy {
+    font-size: 14px;
+    padding: 12px 18px;;
+}
+
+.enjoy:hover {
+    background-color: #3597ff;
+    border-color: #3597ff;
+}
+
+.main-visual-image {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+}
+
+.shape {
+    position: relative;
+    left: 305%;
+    bottom: 200px;
+    z-index: 0;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.text-gray {
+    color: #566b8d;
+}
+
+.why-card p {
+    font-size: 15px;
+}
+
+.why-card img {
+    padding-bottom: 15px;
+}
+
+.count {
+    font-size: 90px;
+}
+
+.type {
+    font-size: 18px;
+}
+
+#vision .item:nth-child(1) {
+    color: #5b94d7;
+    background-color: rgba(221, 236, 251, 0.4);
+}
+
+#vision .item:nth-child(2) {
+    color: #5cc19a;
+    background-color: rgba(156, 238, 204, 0.4);
+}
+#vision .item:nth-child(3) {
+    color: #dbca68;
+    background-color: rgba(238, 226, 156, 0.4);
+}
+
+#vision .item:nth-child(4) {
+    color: #b95e73;
+    background-color: rgba(238, 156, 156, 0.4);
+}
+
+.item {
+    width: 233px;
+    height: 183px;
+    border-radius: 4px;
+}
