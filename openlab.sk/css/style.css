@@ -40,6 +40,11 @@ strong {
     color: #141619
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0
+}
+
 .main-message p {
     font-size: 17px;
 }
