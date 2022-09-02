@@ -71,10 +71,10 @@ strong {
     z-index: 99;
 }
 
-.shape {
-    position: relative;
-    left: 305%;
-    bottom: 200px;
+.a-shape {
+    position: absolute;
+    left: 89%;
+    top: 40%;
     z-index: 0;
     overflow: hidden;
     vertical-align: middle;
@@ -82,6 +82,10 @@ strong {
 
 .text-gray {
     color: #566b8d;
+}
+
+.text-primary {
+    color: #3597ff !important;
 }
 
 .why-card p {
@@ -123,4 +127,30 @@ strong {
     width: 233px;
     height: 183px;
     border-radius: 4px;
+}
+
+#labs a {
+    text-decoration: none;
+    color: #566b8d;
+}
+
+#labs a:hover {
+    border: 1px solid #566b8d ;
+    border-radius: 2px;
+    background-color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    width: 220px;
+    height: 270px;
+}
+
+.card {
+    width: 220px;
+    height: 270px;
+}
+
+.card img:last-of-type {
+    display: none;
+    position: relative;
+    right: 25px;
 }
