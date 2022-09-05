@@ -16,10 +16,6 @@ strong {
     font-weight: bold;    
 }
 
-.position-relative {
-    position: relative;
-}
-
 .btn-gray {
     color: #989ca2;
     background-color: rgba(152, 156, 162, 0.15);
@@ -45,13 +41,17 @@ strong {
     margin-top: 0
 }
 
-.main-message p {
+#main-message p {
     font-size: 17px;
 }
 
 .bg-primary, .btn-primary {
-    background-color: #3597ff;
-    border-color: #3597ff;
+    background-color: #3597ff!important;
+    border-color: #297bd3;
+}
+
+.bg-primary-lighter {
+    background-color: #f3f9ff;
 }
 
 .enjoy {
@@ -64,20 +64,18 @@ strong {
     border-color: #3597ff;
 }
 
+#main-message .shape {
+    width: 213px;
+    right: 0;
+    top: 200px;
+    z-index: 0;
+}
+
 .main-visual-image {
     position: absolute;
     left: 0;
     bottom: 0;
     z-index: 99;
-}
-
-.a-shape {
-    position: absolute;
-    left: 89%;
-    top: 40%;
-    z-index: 0;
-    overflow: hidden;
-    vertical-align: middle;
 }
 
 .text-gray {
@@ -88,11 +86,11 @@ strong {
     color: #3597ff !important;
 }
 
-.why-card p {
+#why-card p {
     font-size: 15px;
 }
 
-.why-card img {
+#why-card img {
     padding-bottom: 15px;
 }
 
@@ -134,16 +132,6 @@ strong {
     color: #566b8d;
 }
 
-#labs a:hover {
-    border: 1px solid #566b8d ;
-    border-radius: 2px;
-    background-color: #fff;
-    cursor: pointer;
-    padding: 15px;
-    width: 220px;
-    height: 270px;
-}
-
 .card {
     width: 220px;
     height: 270px;
@@ -153,4 +141,32 @@ strong {
     display: none;
     position: relative;
     right: 25px;
+}
+
+#want .heading {
+    top: -48px;
+    font-size: 62px;
+    color: rgba(209, 220, 231, 0.3);
+}
+
+#schools .shape {
+    width: 213px;
+    right: 0;
+    top: 2500px !important;
+    z-index: 0;
+}
+
+#student-projects hr:first-of-type {
+    bottom: -25px;
+    left: 0;
+    width: 50px;
+    height: 1px;
+    background-color: rgba(86, 107, 141, 0.5);
+}
+
+#join .shape {
+    width: 250px;
+    right: 0;
+    top: 3800px !important;
+    z-index: 0;
 }
