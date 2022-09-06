@@ -12,6 +12,10 @@ header p {
     font-size: 12px;
 }
 
+header .border-bottom {
+    border-color: #d7eaff !important;
+}
+
 strong {
     font-weight: bold;    
 }
@@ -143,16 +147,23 @@ strong {
     right: 25px;
 }
 
+#schools .shape {
+    width: 213px;
+    right: 0;
+    top: 400px !important;
+    z-index: 0;
+}
+
 #want .heading {
     top: -48px;
     font-size: 62px;
     color: rgba(209, 220, 231, 0.3);
 }
 
-#schools .shape {
-    width: 213px;
-    right: 0;
-    top: 2500px !important;
+#join .shape {
+    width: 300px;
+    right: 0px;
+    top: 335px !important;
     z-index: 0;
 }
 
@@ -164,9 +175,16 @@ strong {
     background-color: rgba(86, 107, 141, 0.5);
 }
 
-#join .shape {
-    width: 250px;
-    right: 0;
-    top: 3800px !important;
+.border-bottom {
+    border-bottom: 1px solid #dee2e6!important;
+}
+
+#student-projects .shape {
+    left: -230px;
+    top: 230px;
     z-index: 0;
+}
+
+#know-us h6:last-of-type {
+    font-size: 16px !important;
 }
