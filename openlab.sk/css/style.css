@@ -50,7 +50,7 @@ strong {
 }
 
 .bg-primary, .btn-primary {
-    background-color: #3597ff!important;
+    background-color: #3597ff !important;
     border-color: #297bd3;
 }
 
@@ -149,8 +149,8 @@ strong {
 
 #schools .shape {
     width: 213px;
-    right: 0;
-    top: 400px !important;
+    right: -290px;
+    top: 450px;
     z-index: 0;
 }
 
@@ -163,7 +163,7 @@ strong {
 #join .shape {
     width: 300px;
     right: 0px;
-    top: 335px !important;
+    top: 335px;
     z-index: 0;
 }
 
@@ -176,15 +176,15 @@ strong {
 }
 
 .border-bottom {
-    border-bottom: 1px solid #dee2e6!important;
+    border-bottom: 1px solid #dee2e6;
 }
 
 #student-projects .shape {
-    left: -230px;
+    left: -510px;
     top: 230px;
     z-index: 0;
 }
 
 #know-us h6:last-of-type {
-    font-size: 16px !important;
+    font-size: 16px;
 }
