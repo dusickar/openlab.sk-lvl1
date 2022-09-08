@@ -136,17 +136,6 @@ strong {
     color: #566b8d;
 }
 
-.card {
-    width: 220px;
-    height: 270px;
-}
-
-.card img:last-of-type {
-    display: none;
-    position: relative;
-    right: 25px;
-}
-
 #schools .shape {
     width: 213px;
     right: -290px;
@@ -188,3 +177,43 @@ strong {
 #know-us h6:last-of-type {
     font-size: 16px;
 }
+
+.card {
+    width: 250px; /* Using this as an example, you can keep 20rem */
+    overflow: hidden; /* Optional */
+  }
+
+.card-img-top {
+    width: 100%;
+}
+
+.card-img-bottom {
+    width: 13%;
+    opacity: 100%;
+  }
+
+#labs .blue-arrow {
+    position: relative;
+    right: 25px;
+    opacity: 0;
+}
+
+#labs .hide:hover .card-img-bottom, 
+#join .hide:hover .card-img-bottom {
+    opacity: 0%;
+}
+
+#labs .hide:hover .blue-arrow, 
+#join .hide:hover .blue-arrow {
+    opacity: 100%;
+}
+
+#join .blue-arrow {
+    position: relative;
+    right: 33px;
+    opacity: 0;
+    width: 13%;
+}
+
+
+
