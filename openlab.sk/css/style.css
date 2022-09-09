@@ -178,11 +178,6 @@ strong {
     font-size: 16px;
 }
 
-.card {
-    width: 250px; /* Using this as an example, you can keep 20rem */
-    overflow: hidden; /* Optional */
-  }
-
 .card-img-top {
     width: 100%;
 }
@@ -215,5 +210,13 @@ strong {
     width: 13%;
 }
 
+#labs .hide:hover, 
+#join .hide:hover {
+    border: 1px solid;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px 10px #f3f3f5;
+}
 
-
+#join .hide:hover {
+    width: 100px;
+}
