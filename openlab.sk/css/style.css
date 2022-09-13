@@ -183,40 +183,20 @@ strong {
 }
 
 .card-img-bottom {
-    width: 13%;
-    opacity: 100%;
-  }
-
-#labs .blue-arrow {
-    position: relative;
-    right: 25px;
-    opacity: 0;
-}
-
-#labs .hide:hover .card-img-bottom, 
-#join .hide:hover .card-img-bottom {
-    opacity: 0%;
-}
-
-#labs .hide:hover .blue-arrow, 
-#join .hide:hover .blue-arrow {
-    opacity: 100%;
-}
-
-#join .blue-arrow {
-    position: relative;
-    right: 33px;
-    opacity: 0;
+    fill: gray;
     width: 13%;
 }
 
-#labs .hide:hover, 
-#join .hide:hover {
+.hover-card:hover .card-img-bottom {
+    fill: blue;
+}
+
+.hover-card:hover {
     border: 1px solid;
     background-color: #fff;
     box-shadow: 5px 5px 20px 10px #f3f3f5;
 }
 
-#join .hide:hover {
+#join .hover-card:hover {
     width: 100px;
 }
