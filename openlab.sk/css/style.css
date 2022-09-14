@@ -188,7 +188,7 @@ strong {
 }
 
 .hover-card:hover .card-img-bottom {
-    fill: blue;
+    fill: blue !important;
 }
 
 .hover-card:hover {
