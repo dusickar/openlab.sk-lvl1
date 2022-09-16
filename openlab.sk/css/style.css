@@ -143,6 +143,11 @@ strong {
     z-index: 0;
 }
 
+#schools .schools-img {
+    max-width: 100%;
+    height: auto;
+}
+
 #want .heading {
     top: -48px;
     font-size: 62px;
@@ -178,6 +183,12 @@ strong {
     font-size: 16px;
 }
 
+#know-us img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+}
+
 .card-img-top {
     width: 100%;
 }
@@ -199,4 +210,45 @@ strong {
 
 #join .hover-card:hover {
     width: 100px;
+}
+
+#instagram-layout img {
+    width: 317px;
+    max-width: 100%;
+    height: auto;
+}
+
+.ig-icon {
+    background: url('../icon/ig-type-sprites.png') 0.5% 100% no-repeat;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    width: 32px;
+    height: 32px;
+}
+
+#instagram-layout a {
+    position: relative;
+}
+
+#instagram-layout a:hover img {
+    filter: brightness(50%);
+}
+
+#instagram-layout a:hover .show-element {
+    opacity: 1;
+  }
+
+.show-element {
+    background: url('../icon/instagram.svg') 100% 100% no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 242.5px;
+    height: 36px;
+    opacity: 0;
+}
+
+#modern-school a {
+    text-decoration: none;
 }
