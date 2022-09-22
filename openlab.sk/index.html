@@ -11,7 +11,7 @@
     </head>
 
     <body>
-        <header class="bg-white">
+        <header class="bg-white d-none d-lg-block">
             <div class="container d-flex justify-content-center align-items-center border-bottom border-info">
                 <p class="me-5 mt-3 text-black"> Ak máš záujem študovať spolu s nami, sme tu pre teba…</p>
                 <a href="https://discord.com/invite/Y6xrdTvjFn" target="_blank" class="btn btn-gray btn-sm rounded-pill ">
@@ -19,42 +19,45 @@
                     <img src="icon/discord.svg" alt="Discord" class="pb-1">
                 </a>
             </div>
-            
-            <nav>
-                <ul class=" container nav nav-pills navbar-expand-lg mt-4 text-center fw-bold">
-                    <a href="https://openlab.sk/">
-                        <img src="img/openlab-logo.svg" alt="openlab" class="me-5 mt-1">
-                    </a>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://rieciciar.wezeo.academy/index.html">Úvod</a> 
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="https://rieciciar.wezeo.academy/openlaby.html">Openlab</a> 
-                        <ul class="dropdown-menu border-0">
-                            <li>
-                                <a class="nav-link dropdown-item" href="https://rieciciar.wezeo.academy/hybridlab.html">HybridLab</a>
-                            </li>
-                            <li>
-                                <a class="nav-link dropdown-item" href="https://rieciciar.wezeo.academy/gameslab.html">GamesLab</a> 
-                            </li>
-                            <li>
-                                <a class="nav-link dropdown-item" href="https://rieciciar.wezeo.academy/appslab.html">AppsLab</a> 
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://rieciciar.wezeo.academy/preucitelov.html">Pre učiteľov</a> 
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://rieciciar.wezeo.academy/partneri.html">Partneri</a> 
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://rieciciar.wezeo.academy/modernaskola.html">Moderná škola</a> 
-                    </li>
-                    <a href="https://rieciciar.wezeo.academy/openlaby/" class="enjoy btn btn-primary offset-md-4">Pridajte sa k nám</a>
-                </ul>
-            </nav>
         </header>    
+            
+        <nav>
+            <ul class=" container nav nav-pills navbar-expand-lg mt-4 text-center fw-bold">
+                <a class="navbar-brand" href="https://openlab.sk/">
+                    <img src="img/openlab-logo.svg" alt="openlab" class="me-5 mt-1">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://rieciciar.wezeo.academy/index.html">Úvod</a> 
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="https://rieciciar.wezeo.academy/openlaby.html">Openlab</a> 
+                    <ul class="dropdown-menu border-0">
+                        <li>
+                            <a class="nav-link dropdown-item" href="https://rieciciar.wezeo.academy/hybridlab.html">HybridLab</a>
+                        </li>
+                        <li>
+                            <a class="nav-link dropdown-item" href="https://rieciciar.wezeo.academy/gameslab.html">GamesLab</a> 
+                        </li>
+                        <li>
+                            <a class="nav-link dropdown-item" href="https://rieciciar.wezeo.academy/appslab.html">AppsLab</a> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://rieciciar.wezeo.academy/preucitelov.html">Pre učiteľov</a> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://rieciciar.wezeo.academy/partneri.html">Partneri</a> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://rieciciar.wezeo.academy/modernaskola.html">Moderná škola</a> 
+                </li>
+                <a href="https://rieciciar.wezeo.academy/openlaby/" class="enjoy btn btn-primary btn-lg offset-xxl-4 offset-lg-2">Pridajte sa k nám</a>
+            </ul>
+        </nav>
             
         <section id="main-message" class="px-5 py-2 my-3 bg-primary text-white position-relative mb-5 mb-md-5">
             <div class="container">
@@ -207,12 +210,13 @@
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section id="want" class="px-5 pt-5 bg-primary-lighter position-relative">
             <div class="shape d-md-block position-absolute overflow-hidden d-none">
                 <img src="img/p_letter.png"  width="482px" height="482px">
             </div>
-        </section>
 
-        <section id="want" class="px-5 pt-5 bg-primary-lighter ">
             <div class="container">
                 <div class="row px-4 mt-5">
                     <div class="col-5">
@@ -297,53 +301,52 @@
                 <hr class="border-bottom border-info mt-5">
             </div>
                 
-            <div class="shape overflow-hidden position-absolute">
-                <img src="img/a_letter.png" width="435px">
-            </div>
         </section>
 
-        <section id="special" class="container pt-5 pb-2">
-                <div class="row justify-content-center border-bottom pb-5">
-                    <div class="col-12 text-center mb-5">
-                        <h2 class="h1"><span class="fw-normal">Čím sme</span><strong> výnimoční?</strong></h2>
-                    </div>
+        <section id="special" class="container pt-5 pb-2 position-relative">
+            <div class="shape position-absolute overflow-hidden d-none d-md-block">
+                <img src="img/a_letter.png" width="435px">
+            </div>
+            <div class="row justify-content-center border-bottom pb-5">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="h1"><span class="fw-normal">Čím sme</span><strong> výnimoční?</strong></h2>
+                </div>
 
-                    <div class="row row-cols-3 col-9 py-4">
-                        <div class="col-4 p-3">
-                            <img src="icon/special1.svg" class="py-3">
-                            <h5 class="py-2 fw-bold">Partnerstvo</h5>
-                            <p class="text-gray">Dáva študentom slobodu, ktorú vyvažujú zodpovednosťou. Spolupráca LabMastra a študentov je v partnerskej rovine.</p>
-                        </div>
-            
-                        <div class="col-4 p-3">
-                            <img src="icon/special2.svg" class="py-3">
-                            <h5 class="py-2 fw-bold">LabMaster</h5>
-                            <p class="text-gray">Je mentor s expertízou v danej oblasti, ktorý nastavuje rámce a sprevádza študentov pri dosahovaní míľnikov.</p>
-                        </div>
-                        
-                        <div class="col-4 p-3">
-                            <img src="icon/special3.svg" class="py-3">
-                            <h5 class="py-2 fw-bold">Učebný blok</h5>
-                            <p class="text-gray">Je základný dokument, z ktorého sa študenti učia. Obsahuje všetky vzdelávacie podklady pre konkrétnu fázu.</p>
-                        </div>
-                        
-                        <div class="col-4 p-3">
-                            <img src="icon/special4.svg" class="py-3">
-                            <h5 class="py-2 fw-bold">Problem driven</h5>
-                            <p class="text-gray">Je princíp učenia, vďaka ktorému sú študenti vedení ku kritickému mysleniu s cieľom vyriešiť konkrétne problémy.</p>
-                        </div>
-                        
-                        <div class="col-4 p-3">
-                            <img src="icon/special5.svg" class="py-3">
-                            <h5 class="py-2 fw-bold">Project driven</h5>
-                            <p class="text-gray">Po teoretickej fáze sú študenti rozdelení do tímov, v ktorých v spolupráci s firmami tvoria konkrétny projekt pre zákazníka.</p>
-                        </div>
-                        
-                        <div class="col-4 p-3">
-                            <img src="icon/special6.svg" class="py-3">
-                            <h5 class="py-2 fw-bold">Samoštúdium</h5>
-                            <p class="text-gray">Študenti trávia 80% času samoštúdiom a sú vedení k tímovej spolupráci. 20% teórie slúži iba ako odrazový mostík.</p>
-                        </div>
+                <div class="row row-cols-3 col-9 py-4">
+                    <div class="col-4 p-3">
+                        <img src="icon/special1.svg" class="py-3">
+                        <h5 class="py-2 fw-bold">Partnerstvo</h5>
+                        <p class="text-gray">Dáva študentom slobodu, ktorú vyvažujú zodpovednosťou. Spolupráca LabMastra a študentov je v partnerskej rovine.</p>
+                    </div>
+        
+                    <div class="col-4 p-3">
+                        <img src="icon/special2.svg" class="py-3">
+                        <h5 class="py-2 fw-bold">LabMaster</h5>
+                        <p class="text-gray">Je mentor s expertízou v danej oblasti, ktorý nastavuje rámce a sprevádza študentov pri dosahovaní míľnikov.</p>
+                    </div>
+                    
+                    <div class="col-4 p-3">
+                        <img src="icon/special3.svg" class="py-3">
+                        <h5 class="py-2 fw-bold">Učebný blok</h5>
+                        <p class="text-gray">Je základný dokument, z ktorého sa študenti učia. Obsahuje všetky vzdelávacie podklady pre konkrétnu fázu.</p>
+                    </div>
+                    
+                    <div class="col-4 p-3">
+                        <img src="icon/special4.svg" class="py-3">
+                        <h5 class="py-2 fw-bold">Problem driven</h5>
+                        <p class="text-gray">Je princíp učenia, vďaka ktorému sú študenti vedení ku kritickému mysleniu s cieľom vyriešiť konkrétne problémy.</p>
+                    </div>
+                    
+                    <div class="col-4 p-3">
+                        <img src="icon/special5.svg" class="py-3">
+                        <h5 class="py-2 fw-bold">Project driven</h5>
+                        <p class="text-gray">Po teoretickej fáze sú študenti rozdelení do tímov, v ktorých v spolupráci s firmami tvoria konkrétny projekt pre zákazníka.</p>
+                    </div>
+                    
+                    <div class="col-4 p-3">
+                        <img src="icon/special6.svg" class="py-3">
+                        <h5 class="py-2 fw-bold">Samoštúdium</h5>
+                        <p class="text-gray">Študenti trávia 80% času samoštúdiom a sú vedení k tímovej spolupráci. 20% teórie slúži iba ako odrazový mostík.</p>
                     </div>
                 </div>
             </div>
