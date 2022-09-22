@@ -136,10 +136,10 @@ strong {
     color: #566b8d;
 }
 
-#schools .shape {
+#want .shape {
     width: 213px;
-    right: -290px;
-    top: 450px;
+    right: 0;
+    bottom: 350px;
     z-index: 0;
 }
 
@@ -173,9 +173,9 @@ strong {
     border-bottom: 1px solid #dee2e6;
 }
 
-#student-projects .shape {
-    left: -510px;
-    top: 230px;
+#special .shape {
+    left: -515px;
+    top: -180px;
     z-index: 0;
 }
 
