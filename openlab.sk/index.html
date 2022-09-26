@@ -21,44 +21,79 @@
             </div>
         </header>    
             
-        <nav>
-            <ul class=" container nav nav-pills navbar-expand-lg mt-4 text-center fw-bold">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
                 <a class="navbar-brand" href="https://openlab.sk/">
                     <img src="img/openlab-logo.svg" alt="openlab" class="me-5 mt-1">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://rieciciar.wezeo.academy/index.html">Úvod</a> 
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="https://rieciciar.wezeo.academy/openlaby.html">Openlab</a> 
-                    <ul class="dropdown-menu border-0">
-                        <li>
-                            <a class="nav-link dropdown-item" href="https://rieciciar.wezeo.academy/hybridlab.html">HybridLab</a>
-                        </li>
-                        <li>
-                            <a class="nav-link dropdown-item" href="https://rieciciar.wezeo.academy/gameslab.html">GamesLab</a> 
-                        </li>
-                        <li>
-                            <a class="nav-link dropdown-item" href="https://rieciciar.wezeo.academy/appslab.html">AppsLab</a> 
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://rieciciar.wezeo.academy/preucitelov.html">Pre učiteľov</a> 
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://rieciciar.wezeo.academy/partneri.html">Partneri</a> 
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://rieciciar.wezeo.academy/modernaskola.html">Moderná škola</a> 
-                </li>
-                <a href="https://rieciciar.wezeo.academy/openlaby/" class="enjoy btn btn-primary btn-lg offset-xxl-4 offset-lg-2">Pridajte sa k nám</a>
-            </ul>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close btn-close-dark ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body text-center">
+                        <ul class="container nav nav-pills text-center fw-bold">
+                            <li class="nav-item mb-3 mb-lg-0">
+                                <a class="nav-link" href="https://rieciciar.wezeo.academy/index.html">Úvod</a> 
+                            </li>
+                            <li class="nav-item mb-3 mb-lg-0 d-lg-flex d-none d-lg-block dropdown">
+                                <a class="nav-link dropdown-toggle d-lg-block" data-bs-toggle="dropdown" href="https://rieciciar.wezeo.academy/openlaby.html">Openlab</a>
+                                <ul class="dropdown-menu border-0">
+                                    <li class="nav-item mb-3 mb-lg-0">
+                                        <a class="nav-link dropdown-item" href="https://rieciciar.wezeo.academy/hybridlab.html">HybridLab</a>
+                                    </li>
+                                    <li class="nav-item mb-3 mb-lg-0">
+                                        <a class="nav-link dropdown-item" href="https://rieciciar.wezeo.academy/gameslab.html">GamesLab</a> 
+                                    </li>
+                                    <li class="nav-item mb-3 mb-lg-0">
+                                        <a class="nav-link dropdown-item" href="https://rieciciar.wezeo.academy/appslab.html">AppsLab</a> 
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- mobile menu without dropdown -->
+                            <li class="nav-item mb-3 mb-lg-0 d-lg-none">
+                                <a class="nav-link d-lg-block" href="https://rieciciar.wezeo.academy/openlaby.html">Openlab</a>
+                            </li>
+
+                            <li class="nav-item mb-3 mb-lg-0 d-lg-none">
+                                <a class="nav-link" href="https://rieciciar.wezeo.academy/hybridlab.html">HybridLab</a>
+                            </li>
+                            <li class="nav-item mb-3 mb-lg-0 d-lg-none">
+                                <a class="nav-link" href="https://rieciciar.wezeo.academy/gameslab.html">GamesLab</a> 
+                            </li>
+                            <li class="nav-item mb-3 mb-lg-0 d-lg-none">
+                                <a class="nav-link" href="https://rieciciar.wezeo.academy/appslab.html">AppsLab</a> 
+                            </li>
+                            <!--end mobile menu without dropdown  -->
+
+                            <li class="nav-item mb-3 mb-lg-0">
+                                <a class="nav-link" href="https://rieciciar.wezeo.academy/preucitelov.html">Pre učiteľov</a> 
+                            </li>
+                            <li class="nav-item mb-3 mb-lg-0">
+                                <a class="nav-link" href="https://rieciciar.wezeo.academy/partneri.html">Partneri</a> 
+                            </li>
+                            <li class="nav-item mb-3 mb-lg-0">
+                                <a class="nav-link" href="https://rieciciar.wezeo.academy/modernaskola.html">Moderná škola</a> 
+                            </li>
+                            <a href="https://rieciciar.wezeo.academy/openlaby/" class="enjoy btn btn-primary btn-lg offset-xxl-4 offset-lg-1 ">Pridajte sa k nám</a>
+                        </ul>
+                        
+                        <div class="text-center my-5 py-5 d-lg-none">
+                            <p class="text-black mx-4 my-5 fs-7 lh-1"> Ak máš záujem študovať spolu s nami, sme tu pre teba…</p>
+                            <a href="https://discord.com/invite/Y6xrdTvjFn" target="_blank" class="btn btn-gray btn-md rounded-pill py-2 fs-6">
+                                OPENLAB COMMUNITY 
+                                <img src="icon/discord.svg" alt="Discord" class="pb-1">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </nav>
-            
+
         <section id="main-message" class="px-5 py-2 my-3 bg-primary text-white position-relative mb-5 mb-md-5">
             <div class="container">
                 <div class="row align-items-center">
