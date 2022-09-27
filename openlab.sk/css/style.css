@@ -43,6 +43,7 @@ header .border-bottom {
 
 #main-message p {
     font-size: 17px;
+
 }
 
 .bg-primary, .btn-primary {
@@ -75,7 +76,7 @@ header .border-bottom {
     position: absolute;
     left: 0;
     bottom: 0;
-    z-index: 99;
+    z-index: 1;
 }
 
 .text-gray {
@@ -312,3 +313,20 @@ footer .social-icon a {
     }
 }
 
+.shape img {
+    width: 482px
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    #main-message .shape img {
+        width: 241px;
+        right: 0;
+        top: 0x;
+        z-index: 0;
+        vertical-align: middle;
+    }
+}
+
+
+
+}
