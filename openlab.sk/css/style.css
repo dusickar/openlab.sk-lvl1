@@ -327,6 +327,11 @@ footer .social-icon a {
     }
 }
 
+#carouselExampleIndicators {
+    margin-left: 25%;
+}
 
-
+.carousel-inner img{
+    height: 50%;
+    border-radius: 20px;
 }
