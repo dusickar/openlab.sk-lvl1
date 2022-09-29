@@ -329,9 +329,33 @@ footer .social-icon a {
 
 #carouselExampleIndicators {
     margin-left: 25%;
+    margin-top: 10% !important;
 }
 
-.carousel-inner img{
-    height: 50%;
+#carouselExampleIndicators .carousel-inner img {
+    display: block;
+    width: 100%;
+    height: auto;
     border-radius: 20px;
+    object-fit: cover;
+}
+
+.carousel-indicators button {
+    position: relative;
+    top: -8px;
+    left: -10px;
+}
+
+.carousel-indicators li {
+    bottom: 5px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #929297;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);      
 }
