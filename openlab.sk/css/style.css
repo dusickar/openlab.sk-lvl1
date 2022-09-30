@@ -332,6 +332,11 @@ footer .social-icon a {
     margin-top: 10% !important;
 }
 
+#carouselExampleIndicators .container {
+    width: 1800px;
+    max-height: 20% !important;
+}
+
 #carouselExampleIndicators .carousel-inner img {
     display: block;
     width: 100%;
@@ -349,13 +354,31 @@ footer .social-icon a {
 .carousel-indicators li {
     bottom: 5px;
     display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin: 10px;
+    width: 12px;
+    height: 12px;
+    margin: 5px;
     text-indent: 0;
     cursor: pointer;
     border: none;
     border-radius: 50%;
     background-color: #929297;
-    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);      
+    box-shadow: inset 1px 1px 1px 1px rgba(77, 77, 77, 0.5);      
+}
+
+.carousel-indicators li:hover {
+    background-color: #3597ff;
+}
+
+.carousel-indicators .active {
+    margin-left: 10px;
+    margin-top: 7px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #3597ff;
+    box-shadow: inset 1px 1px 1px 1px rgba(77, 77, 77, 0.5); 
 }
