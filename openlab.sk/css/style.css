@@ -348,33 +348,58 @@ footer .social-icon a {
     background-color: #3597ff;
 }
 
-.carousel-wrapper {
-    width: 3840px;
+.carousel-1 .carousel-wrapper {
+    width: 3900px;
     height: 600px !important;
     overflow: hidden;
 }  
 
-.carousel-inner {
-    width: 1350px;
+.carousel-1 .carousel-inner .active {
+    width: 1300px;
     height: 600px !important;
     object-fit: cover;
     border-radius: 15px;
     position: relative;
     left: 18%;
-}   
+}  
 
-.carousel-inner-cloned-left {
-    width: 1350px;
+.carousel-1 .carousel-inner {
+    border-radius: 15px;
+}
+
+.cloned-left {
+    width: 1300px;
     height: 600px !important;
     object-fit: cover;
     border-radius: 15px;
     position: absolute;
-    right: 300px !important;
+    right: 1570px;
+    top: 0;
     overflow: hidden;
+    opacity: 0.2;
 }
 
-.carousel-item {
+.cloned-right {
+    width: 1300px;
+    height: 600px !important;
+    object-fit: cover;
+    border-radius: 15px;
+    position: absolute;
+    left: 2100px;
+    top: 0;
+    overflow: hidden;
+    opacity: 0.2;
+}
+
+.cloned-right img {
+    position: relative;
+    right: 20%;
+    top: 10%;
+}
+
+.carousel-1 .carousel-item {
     position: relative;
     top: -170px;
+    width: 1350px;
 }
 
