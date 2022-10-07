@@ -349,7 +349,7 @@ footer .social-icon a {
 }
 
 .carousel-1 .carousel-wrapper {
-    width: 3900px;
+    width: 4000px;
     height: 600px !important;
     overflow: hidden;
 }  
@@ -385,8 +385,9 @@ footer .social-icon a {
     object-fit: cover;
     border-radius: 15px;
     position: absolute;
-    left: 2100px;
+    left: 100%;
     top: 0;
+    margin-left: 60px;
     overflow: hidden;
     opacity: 0.2;
 }
