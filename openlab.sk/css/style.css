@@ -351,7 +351,6 @@ footer .social-icon a {
 
 .carousel-1 .carousel-inner .active {
     width: 35%;
-    height: 100% !important;
     object-fit: cover;
     position: relative;
     left: 15%;
@@ -359,6 +358,8 @@ footer .social-icon a {
 
 carouselExampleIndicators > .carousel-inner {
     border-radius: 15px !important;
+    transform: translate3d(-1760px, 0px, 0px);
+    transition: all 0s ease 0s;
 }
 
 .cloned-left {
@@ -453,3 +454,43 @@ carouselExampleIndicators > .carousel-inner {
     z-index: 10;
 }
 
+#carousel-2 .carousel-indicators {
+    position: relative;
+    top: 470px;
+}
+
+#carousel-2 .carousel-indicators button {
+    background-color: rgba(53, 151, 255, 0.5);
+}
+
+#carousel-2 .carousel-indicators button:hover {
+    background-color: #3597ff;
+}
+
+#carousel-2 .carousel-indicators .active {
+    background-color: #3597ff;
+}
+
+#carousel-2 .carousel-control-next {
+    position: relative;
+    right: 39%;
+    top: 400px !important;
+    background: url(../icon/arrow-slide-right.svg) no-repeat center center;
+    background-color:rgba(53, 151, 255, 0.5);
+    width: 2%;
+    height: 2%;
+}
+
+#carousel-2 .carousel-control-prev {
+    position: relative;
+    left: -36%;
+    top: 400px !important;
+    background: url(../icon/arrow-slide-left.svg) no-repeat center center;
+    background-color:rgba(53, 151, 255, 0.5);
+    width: 2%;
+    height: 2%;
+}
+
+#carousel-2 a {
+    height: 81%
+}
