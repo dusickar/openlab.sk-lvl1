@@ -474,7 +474,7 @@ carouselExampleIndicators > .carousel-inner {
 #carousel-2 .carousel-control-next {
     position: relative;
     right: 39%;
-    top: 400px !important;
+    top: 395px !important;
     background: url(../icon/arrow-slide-right.svg) no-repeat center center;
     background-color:rgba(53, 151, 255, 0.5);
     width: 2%;
@@ -484,7 +484,7 @@ carouselExampleIndicators > .carousel-inner {
 #carousel-2 .carousel-control-prev {
     position: relative;
     left: -36%;
-    top: 400px !important;
+    top: 395px !important;
     background: url(../icon/arrow-slide-left.svg) no-repeat center center;
     background-color:rgba(53, 151, 255, 0.5);
     width: 2%;
@@ -492,5 +492,5 @@ carouselExampleIndicators > .carousel-inner {
 }
 
 #carousel-2 a {
-    height: 81%
+    height: 82%
 }
