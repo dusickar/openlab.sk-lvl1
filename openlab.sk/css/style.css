@@ -43,7 +43,18 @@ header .border-bottom {
 
 #main-message p {
     font-size: 17px;
+}
 
+#main-message .row .col-image-wrapper {
+    position: relative;
+    bottom: 0;
+    z-index: 0;
+}
+
+#main-message .col-image-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .bg-primary, .btn-primary {
@@ -105,8 +116,8 @@ header .border-bottom {
 @media (max-width: 767.98px) {
     .main-visual-image {
         z-index: 0;
-        width: 60% !important;
-        height: 90% !important;
+        width: 100% !important;
+        height: 100% !important;
     }
 }
 
@@ -462,6 +473,16 @@ footer .social-icon a {
     }
 }
 
+@media (max-width: 991.98px) {
+    .labmastri > .card,
+    .firmy > .card,
+    .skoly > .card, 
+    .studenti > .card  {
+    margin-top: -33%;
+    width: 100%;
+    }
+}
+
 .labmastri > .card {
     background-color: #A54FA2;
     left: -15%;
@@ -541,40 +562,14 @@ footer .social-icon a {
     background-color: #3597ff;
 }
 
-#carousel-2 .carousel-control-next {
-    position: relative;
-    right: 39%;
-    top: 395px !important;
-    background: url(../icon/arrow-slide-right.svg) no-repeat center center;
-    background-color:rgba(53, 151, 255, 0.5);
-    width: 2%;
-    height: 2%;
-}
-
-#carousel-2 .carousel-control-prev {
-    position: relative;
-    left: -36%;
-    top: 395px !important;
-    background: url(../icon/arrow-slide-left.svg) no-repeat center center;
-    background-color:rgba(53, 151, 255, 0.5);
-    width: 2%;
-    height: 2%;
+.next-previous-carousel-indicator {
+    z-index: 1;
+    margin: 2px;
+    border: 0 transparent;
+    border-radius: 3px;
 }
 
 #carousel-2 a {
     height: 82%
 }
 
-@media (max-width: 767.98px) {
-    .carousel-control-next,
-    .carousel-control-prev {
-        display: none;
-    }
-}
-
-@media (min-width: 1200px) and (max-width: 1399.98px){
-    .carousel-control-next,
-    .carousel-control-prev {
-        margin-top: 6%;
-    }
-}
