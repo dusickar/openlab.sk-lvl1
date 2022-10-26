@@ -429,11 +429,6 @@
     
                 <!-- CAROUSEL -->
                 <div id="carousel-2" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="row justify-content-between">
@@ -517,6 +512,11 @@
                             </div>
                         </div>
                     </div>
+                    <div class="carousel-indicators mt-4">
+                        <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
                     <a class="col-5 mt-5 ms-1 text-decoration-none text-primary" href="https://www.youtube.com/channel/UCinIL-0-qCLU6zE5fo1SPNw">Pozrieť si všetky projekty 
                         <img src="icon/arrow-right-blue.svg">
                     </a>
@@ -535,38 +535,38 @@
                     <h2 class="h1"><span class="fw-normal">Čím sme</span><strong> výnimoční?</strong></h2>
                 </div>
 
-                <div class="row row-cols-3 col-9 py-4">
-                    <div class="col-4 p-3">
+                <!-- <div class="row row-cols-3 col-9 py-4"> -->
+                    <div class="col-md-4 col-xl-3 ms-xl-5 pt-3 pt-md-5">
                         <img src="icon/special1.svg" class="py-3">
                         <h5 class="py-2 fw-bold">Partnerstvo</h5>
                         <p class="text-gray">Dáva študentom slobodu, ktorú vyvažujú zodpovednosťou. Spolupráca LabMastra a študentov je v partnerskej rovine.</p>
                     </div>
         
-                    <div class="col-4 p-3">
+                    <div class="col-md-4 col-xl-3 pt-3 pt-md-5">
                         <img src="icon/special2.svg" class="py-3">
                         <h5 class="py-2 fw-bold">LabMaster</h5>
                         <p class="text-gray">Je mentor s expertízou v danej oblasti, ktorý nastavuje rámce a sprevádza študentov pri dosahovaní míľnikov.</p>
                     </div>
                     
-                    <div class="col-4 p-3">
+                    <div class="col-md-4 col-xl-3 me-xl-5 pt-3 pt-md-5">
                         <img src="icon/special3.svg" class="py-3">
                         <h5 class="py-2 fw-bold">Učebný blok</h5>
                         <p class="text-gray">Je základný dokument, z ktorého sa študenti učia. Obsahuje všetky vzdelávacie podklady pre konkrétnu fázu.</p>
                     </div>
                     
-                    <div class="col-4 p-3">
+                    <div class="col-md-4 col-xl-3 pt-3 pt-md-5">
                         <img src="icon/special4.svg" class="py-3">
                         <h5 class="py-2 fw-bold">Problem driven</h5>
                         <p class="text-gray">Je princíp učenia, vďaka ktorému sú študenti vedení ku kritickému mysleniu s cieľom vyriešiť konkrétne problémy.</p>
                     </div>
                     
-                    <div class="col-4 p-3">
+                    <div class="col-md-4 col-xl-3 pt-3 pt-md-5">
                         <img src="icon/special5.svg" class="py-3">
                         <h5 class="py-2 fw-bold">Project driven</h5>
                         <p class="text-gray">Po teoretickej fáze sú študenti rozdelení do tímov, v ktorých v spolupráci s firmami tvoria konkrétny projekt pre zákazníka.</p>
                     </div>
                     
-                    <div class="col-4 p-3">
+                    <div class="col-md-4 col-xl-3 pt-3 pt-md-5">
                         <img src="icon/special6.svg" class="py-3">
                         <h5 class="py-2 fw-bold">Samoštúdium</h5>
                         <p class="text-gray">Študenti trávia 80% času samoštúdiom a sú vedení k tímovej spolupráci. 20% teórie slúži iba ako odrazový mostík.</p>
@@ -578,58 +578,86 @@
         <section id="know-us" class="container mb-5">
             <div class="row">
                 <div class="col-12 py-4 text-center">
-                    <h2 class="h1 fw-bold">Spoznaj nás</h2>
+                    <h2 class="h1 fw-bold mb-5">Spoznaj nás</h2>
                 </div>
 
                 <div class="row row-cols-4">
-                        <div class="col-3 py-5">
-                            <img src="img/grigor-ayrumyan.jpg" alt="Grigor Ayrumyan" class="img-fluid rounded py-2">
-                            <h6 class="text-gray pb-2">BOARD MEMBER & EXECUTIVE TEAM</h6>
-                            <h5 class="mb-1">Grigor Ayrumyan</h5>
-                            <h6 class="text-gray">Co-founder & Executive Director</h6>
+                    <div class="col-6 col-md-3 mb-4">
+                        <div class="border-0 card">
+                            <img src="img/grigor-ayrumyan.jpg" alt="Grigor Ayrumyan" class="card-img-top rounded">
+                            <div class="card-body pt-3 px-0">
+                                <h6 class="text-gray pb-2">BOARD MEMBER & EXECUTIVE TEAM</h6>
+                                <h5 class="mb-1">Grigor Ayrumyan</h5>
+                                <h6 class="text-gray">Co-founder & Executive Director</h6>
+                            </div>
                         </div>
+                    </div>
         
-                    <div class="col-3 py-5">
-                        <img src="img/slavomir-terezka.jpg" alt="Slavomír Terezka" class="img-fluid rounded py-2">
-                        <h6 class="text-gray pb-2">BOARD MEMBER</h6>
-                        <h5 class="mb-1">Slavomír Terezka</h5>
-                        <h6 class="text-gray">Co-founder</h6>
+                    <div class="col-6 col-md-3 mb-4">
+                        <div class="border-0 card">
+                            <img src="img/slavomir-terezka.jpg" alt="Slavomír Terezka" class="img-fluid rounded">
+                            <div class="card-body pt-3 px-0">
+                                <h6 class="text-gray pb-2">BOARD MEMBER</h6>
+                                <h5 class="mb-1">Slavomír Terezka</h5>
+                                <h6 class="text-gray">Co-founder</h6>
+                            </div>
+                        </div>
                     </div>
                     
-                    <div class="col-3 py-5">
-                        <img src="img/roman-sekerka.jpg" alt="Roman Sekerka" class="img-fluid rounded py-2"> 
-                        <h6 class="text-gray pb-2">BOARD MEMBER & EXECUTIVE TEAM</h6>
-                        <h5 class="mb-1">Roman Sekerka</h5>
-                        <h6 class="text-gray lh-base">Co-founder & Tech Garant pre <br>
-                            HybridLab a AppsLab</h6>
+                    <div class="col-6 col-md-3 mb-4">
+                        <div class="border-0 card">
+                            <img src="img/roman-sekerka.jpg" alt="Roman Sekerka" class="img-fluid rounded"> 
+                            <div class="card-body pt-3 px-0">
+                                <h6 class="text-gray pb-2">BOARD MEMBER & EXECUTIVE TEAM</h6>
+                                <h5 class="mb-1">Roman Sekerka</h5>
+                                <h6 class="text-gray lh-base">Co-founder & Tech Garant pre <br>
+                                    HybridLab a AppsLab</h6>
+                            </div>
+                        </div>
                     </div>
         
-                    <div class="col-3 py-5">
-                        <img src="img/jan-kozlej.jpg" alt="Ján Kožlej" class="img-fluid rounded py-2">
-                        <h6 class="text-gray pb-2">BOARD MEMBER & EXECUTIVE TEAM</h6>
-                        <h5 class="mb-1">Ján Kožlej</h5>
-                        <h6 class="text-gray">Tech Garant pre GamesLab</h6>
+                    <div class="col-6 col-md-3 mb-4">
+                        <div class="border-0 card">
+                            <img src="img/jan-kozlej.jpg" alt="Ján Kožlej" class="img-fluid rounded">
+                            <div class="card-body pt-3 px-0">
+                                <h6 class="text-gray pb-2">BOARD MEMBER & EXECUTIVE TEAM</h6>
+                                <h5 class="mb-1">Ján Kožlej</h5>
+                                <h6 class="text-gray">Tech Garant pre GamesLab</h6>
+                            </div>
+                        </div>
                     </div>
         
-                    <div class="col-3 py-5">
-                        <img src="img/veronika-radobicka.jpg" alt="Veronika Radobická" class="img-fluid rounded py-2">
-                        <h6 class="text-gray pb-2">EXECUTIVE TEAM</h6>
-                        <h5 class="mb-1">Veronika Radobická</h5>
-                        <h6 class="text-gray">Marketing Manager</h6>
+                    <div class="col-6 col-md-3 mb-4">
+                        <div class="border-0 card">
+                            <img src="img/veronika-radobicka.jpg" alt="Veronika Radobická" class="img-fluid rounded">
+                            <div class="card-body pt-3 px-0">
+                                <h6 class="text-gray pb-2">EXECUTIVE TEAM</h6>
+                                <h5 class="mb-1">Veronika Radobická</h5>
+                                <h6 class="text-gray">Marketing Manager</h6>
+                            </div>
+                        </div>
                     </div>
         
-                    <div class="col-3 py-5">
-                        <img src="img/dominika-krullova.jpg" alt="Dominika Krullová" class="img-fluid rounded py-2">
-                        <h6 class="text-gray pb-2">EXECUTIVE TEAM</h6>
-                        <h5 class="mb-1">Dominika Krullová</h5>
-                        <h6 class="text-gray">Project Manager</h6>
+                    <div class="col-6 col-md-3 mb-4">
+                        <div class="border-0 card">
+                            <img src="img/dominika-krullova.jpg" alt="Dominika Krullová" class="img-fluid rounded">
+                            <div class="card-body pt-3 px-0">
+                                <h6 class="text-gray pb-2">EXECUTIVE TEAM</h6>
+                                <h5 class="mb-1">Dominika Krullová</h5>
+                                <h6 class="text-gray">Project Manager</h6>
+                            </div>
+                        </div>
                     </div>
         
-                    <div class="col-3 py-5">
-                        <img src="img/viktoria-jakubovicova.jpg" alt="Viktória Jakubovičová" class="img-fluid rounded py-2">
-                        <h6 class="text-gray pb-2">EXECUTIVE TEAM</h6>
-                        <h5 class="mb-1">Viktória Jakubovičová</h5>
-                        <h6 class="text-gray">Relationship Manager</h6>
+                    <div class="col-6 col-md-3 mb-4">
+                        <div class="border-0 card">
+                            <img src="img/viktoria-jakubovicova.jpg" alt="Viktória Jakubovičová" class="img-fluid rounded">
+                            <div class="card-body pt-3 px-0">
+                                <h6 class="text-gray pb-2">EXECUTIVE TEAM</h6>
+                                <h5 class="mb-1">Viktória Jakubovičová</h5>
+                                <h6 class="text-gray">Relationship Manager</h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -640,7 +668,7 @@
                 <div class="col-md-6 mb-5 mb-md-0">
                     <img class="img-fluid" src="img/people.png" alt="Ľudia Ľuďom">
                 </div>
-                <div class="col-6 mb-5">
+                <div class="col-md-6 mb-5">
                     <h2 class="fw-bold py-3">Podporte nás</h2>
                     <p class="text-gray pb-4">OpenLab postupne rozširujeme ako neziskový vzdelávací projekt s cieľom otvoriť OpenLab-y zamerané na rôzne IT technológie na čo najväčší počet škôl vo všetkých slovenských regiónoch. Veríme, že OpenLab bude natoľko úspešný, že sa stane štandardom vzdelávania na Slovensku!</p>
                     <a href="https://www.ludialudom.sk/profil/detail/41588" class="col-5 mt-4 pb-5 ms-1 text-decoration-none text-primary">Chcem podporiť
@@ -650,15 +678,15 @@
             </div>
         </section>
 
-        <section id="whoBehind" class="container py-5 my-5">
+        <section id="whoBehind" class="container py-md-5 py-4">
             <div class="row align-items-center">
-                <div class="col-5">
+                <div class="col-lg-5 col-xl-4 mb-5 mb-lg-0">
                     <h2 class="h1 fw-normal">
                         Kto stojí <br>
                         <strong>za Openlabom?</strong>
                     </h2>
                 </div>
-                <div class="col-7 d-flex flex-wrap justify-content-around">
+                <div class="col-lg-7 col-xl-8 d-flex flex-wrap justify-content-around">
                     <img class="img-fluid my-3 me-5" src="img/wezeo.svg" alt="wezeo">
                     <img class="img-fluid my-3 me-5" src="img/power.svg" alt="PowerPlayStudio">
                     <img class="img-fluid my-3 me-5" src="img/siemens.svg" alt="Siemens Healthineers">
@@ -674,14 +702,14 @@
                 <a href="https://www.instagram.com/tv/ChH_DsmDeit/">
                     <img src="img/insta-thumbnails/1.jpg">
                     <div class="show-element">
-                        <p class="text-white ms-1 fs-5">6 days ago</p>
+                        <p class="text-white text-center fs-5">6 days ago</p>
                     </div>
                 </a>
 
                 <a href="https://www.instagram.com/tv/Cgj1yS5pQsB/">
                     <img src="img/insta-thumbnails/2.jpg">
                     <div class="show-element">
-                        <p class="text-white ms-1 fs-5">22 days ago</p>
+                        <p class="text-white text-center fs-5">22 days ago</p>
                     </div>
                 </a>
 
@@ -689,7 +717,7 @@
                     <img src="img/insta-thumbnails/3.jpg">
                     <div class="ig-icon"></div>
                     <div class="show-element">
-                        <p class="text-white ms-1 fs-5">1 month ago</p>
+                        <p class="text-white text-center fs-5">1 month ago</p>
                     </div>
                 </a>
 
@@ -697,29 +725,29 @@
                     <img src="img/insta-thumbnails/4.jpg">
                     <div class="ig-icon"></div>
                     <div class="show-element">
-                        <p class="text-white ms-1 fs-5">2 months ago</p>
+                        <p class="text-white text-center fs-5">2 months ago</p>
                     </div>
                 </a>
 
                 <a href="https://www.instagram.com/p/Ce0w_hbLNVZ/">
                     <img src="img/insta-thumbnails/5.jpg">
                     <div class="show-element">
-                        <p class="text-white ms-1 fs-5">3 months ago</p>
+                        <p class="text-white text-center fs-5">3 months ago</p>
                     </div>
                 </a>
 
                 <a href="https://www.instagram.com/p/Cey8Ma3LzYc/">
                     <img src="img/insta-thumbnails/6.jpg">
                     <div class="show-element">
-                        <p class="text-white ms-1 fs-5">3 months ago</p>
+                        <p class="text-white text-center fs-5">3 months ago</p>
                     </div>
                 </a>
             </div>
         </section>
 
         <section id="modern-school" class="container py-5 mb-5">
-            <div class="row col-12 d-flex flex-grow">
-                <div class="col-5 me-5">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-xl-5 order-2 order-md-1">
                     <h2 class="h1">
                         <span class="fw-normal">Nie je moderná škola </span><br>
                         <strong>ako moderná škola</strong>
@@ -744,7 +772,7 @@
                     </div>
                 </div>
 
-                <div class="col-6">
+                <div class="col-md-6 mb-5 mb-md-0 offset-xl-1 order-1 order-md-2">
                     <img src="img/modern.png" alt="Moderná škola" class="w-100 img-fluid">
                 </div>
             </div>
@@ -791,20 +819,24 @@
             </div>
         </section>
 
-        <section id="newsletter" class="container">
-            <div class="row my-5 p-5 align-items-center">
-                <div class="col-6">
-                    <h5>
-                        <span class="fw-normal">Prihláste sa do nášho newslettra a budete mať</span><br>
-                        <strong>čerstvé informácie o živote v OpenLabe.</strong>
-                    </h5>
-                </div>
-                <div class="col-6">
-                    <form class="input-group position-relative">
-                        <input type="email" size="70" placeholder="Sem napíš tvoj e-mail" required class="py-2 px-4 border-0 rounded-2 ">
-                        <input type="submit" value="-" class="submit-button position-absolute">
-                        <img class="send-icon position-absolute" src="icon/send.svg">
-                    </form>
+        <section id="newsletter" class="py-4 py-md-5">
+            <div class="container rounded px-3 px-lg-5 mb-5 py-5 py-md-3 p-lg-5">
+                <div class="row align-items-center">
+                    <div class="col-md ps-xl-5 mb-3 mb-md-0">
+                        <h5 class="fw-light mb-4 mb-md-0">
+                            Prihláste sa do nášho newslettra a budete mať
+                            <br>
+                            <strong class="fw-bold">čerstvé informácie o živote v OpenLabe.</strong>
+                        </h5>
+                    </div>
+                    <div class="col-md">
+                        <div class="form">
+                            <form class="position-relative">
+                                <input type="text" name="emailForm" id="emailForm" placeholder="Sem napíš tvoj e-mail" class="border-0" required="">
+                                <img src="icon/send.svg" alt="" class="position-absolute">
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
