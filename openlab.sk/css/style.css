@@ -353,23 +353,16 @@ header .border-bottom {
     right: 20px;
 }
 
-/* #newsletter .submit-button {
-    width: 50px;
-    height: 100%;
-    bottom: 0;
-    right: 18px;
-    opacity: 0;
-    z-index: 1;
-} */
-
 footer p,
 footer a {
     font-size: 13px
 }
 
-footer .social-icon {
-    top: 30px;
-    right: -9%;
+
+@media (min-width: 768px) {
+    footer .social {
+        justify-content: flex-end;
+    }
 }
 
 footer .social-icon a {
@@ -380,9 +373,10 @@ footer .social-icon a {
 .footer-image {
     width: 40%;
     max-height: 100px;
-    position: relative;
-    top: 20px;
+    position: absolute;
     overflow: hidden;
+    left: 100%;
+    top: calc(100% - 30px);
 }
 
 .navbar .navbar-toggler {
