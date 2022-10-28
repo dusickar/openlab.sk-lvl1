@@ -1,3 +1,11 @@
+* {
+    font-family: 'SF Pro Display', sans-serif !important;
+}
+
+strong {
+    font-weight: bold;
+}
+
 body {
     -webkit-font-smoothing: antialiased;
 }
@@ -33,12 +41,13 @@ header .border-bottom {
 }
 
 .nav-link {
-    color: #141619
+    color: #141619;
+    font-weight: 500;
 }
 
 .dropdown:hover .dropdown-menu {
     display: block;
-    margin-top: 0
+    margin-top: 30px;
 }
 
 #main-message p {
@@ -262,12 +271,6 @@ header .border-bottom {
     font-size: 16px;
 }
 
-/* #know-us img {
-    width: 300px;
-    max-width: 100%;
-    height: auto;
-} */
-
 .card-img-top {
     width: 100%;
 }
@@ -423,13 +426,6 @@ footer .social-icon a {
     z-index: -1;
 }
 
-.labmastri,
-.firmy,
-.skoly,
-.studenti {
-    left: 21%;
-}
-
 @media (min-width: 576px) and (max-width: 991.98px) {
     .labmastri,
     .firmy,
@@ -444,28 +440,7 @@ footer .social-icon a {
     .firmy .card,
     .skoly .card, 
     .studenti .card {
-        margin-left: 13%;
         margin-top: 7%;
-    }
-}
-
-@media (max-width: 576px) {
-    .labmastri > .card,
-    .firmy > .card,
-    .skoly > .card, 
-    .studenti > .card  {
-    margin-left: -5%;
-    margin-right: 11%;
-    }
-}
-
-@media (min-width: 576px) and (max-width:767.98px) {
-    .labmastri > .card,
-    .firmy > .card,
-    .skoly > .card, 
-    .studenti > .card  {
-        margin-left: 14%;
-        margin-right: 11%;
     }
 }
 
@@ -490,7 +465,6 @@ footer .social-icon a {
 
 .labmastri > .card {
     background-color: #A54FA2;
-    left: -15%;
     top: 44%;
     height: 570px;
     display: flex;
@@ -499,7 +473,6 @@ footer .social-icon a {
 
 .firmy > .card  {
     background: #3597FF;
-    left: -15%;
     top: 39%;
     height: 570px;
     display: flex;
@@ -507,14 +480,13 @@ footer .social-icon a {
 }
 
 .signature {
-    width: 100%;
+    width: 57%;
     position: relative;
-    bottom: -5%;
+    bottom: -3%;
 }
 
 .skoly > .card  {
     background: #33A969;
-    left: -15%;
     top: 44%;
     height: 570px;
     display: flex;
@@ -523,7 +495,6 @@ footer .social-icon a {
 
 .studenti > .card  {
     background: #F9A94A;
-    left: -15%;
     top: 44%;
     height: 570px;
     display: flex;
@@ -534,8 +505,10 @@ footer .social-icon a {
 .firmy figure,
 .skoly figure,
 .studenti figure {
+    position: relative;
     border-radius: 15px;
     width: 54%;
+    left: 22%;
 }
 
 .labmastri hr,
